@@ -1,35 +1,45 @@
-# Multiple Disease Prediction
+# 🩺 Multiple Disease Prediction
 
-## Link: [Live App](https://mdiseaseprediction.streamlit.app/)
+[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-red?logo=streamlit)](https://streamlit.io/)
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Live App](https://img.shields.io/badge/Live%20App-Click%20Here-green)](https://mdiseaseprediction.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Source%20Code-black?logo=github)](https://github.com/JS-Coder007/Multiple_Disease_Prediction-main)
 
-## Overview
-This project is a **web-based application** built using **Streamlit** that predicts the likelihood of multiple diseases based on user-inputted symptoms and health metrics. It leverages **machine learning models** trained on medical datasets to provide fast, accessible, and reliable predictions for four major diseases:
-- Diabetes
-- Heart Disease
-- Parkinson's Disease
-- Breast Cancer
+## 🔗 Live Demo
+Explore the app here: [mdiseaseprediction.streamlit.app](https://mdiseaseprediction.streamlit.app/)
 
-## Features
-- 🧠 **Multiple Disease Prediction**: Users can select the disease they want to test for and input relevant health data.
-- 📊 **Interactive UI**: Built with Streamlit for a clean, responsive interface.
-- 🔍 **Real-time Results**: Predictions are generated instantly using pre-trained models.
-- 🧪 **Model Accuracy**: Models are trained using scikit-learn and evaluated for performance using metrics like accuracy and confusion matrix.
+## 📌 Project Description
+This is a **Streamlit-powered web application** that predicts the likelihood of three major diseases using machine learning models. It provides an intuitive interface for users to input medical data and receive instant predictions.
 
-## Technologies Used
-- **Python**
-- **Streamlit** for frontend
-- **Scikit-learn** for machine learning
-- **Pandas & NumPy** for data manipulation
-- **Pickle** for model serialization
+### Diseases Covered:
+- 🩸 Diabetes
+- ❤️ Heart Disease
+- 🧠 Parkinson's Disease
 
-## How It Works
-1. The user selects a disease from the sidebar.
-2. Inputs relevant health parameters (e.g., glucose level, blood pressure).
-3. The app loads the corresponding trained model.
-4. Prediction is displayed instantly based on the input.
+## 🚀 Features
+- Interactive disease selection via sidebar
+- Real-time predictions using trained ML models
+- Clean and responsive UI with Streamlit
+- Easy deployment and scalability
 
-## Installation
-To run locally:
+## 🛠️ Tech Stack
+| Technology     | Purpose                        |
+|----------------|--------------------------------|
+| Python         | Core programming language      |
+| Streamlit      | Web interface                  |
+| Scikit-learn   | Machine learning models        |
+| Pandas, NumPy  | Data manipulation              |
+| Pickle         | Model serialization            |
+
+## 📂 Project Structure
+Multiple_Disease_Prediction-main/ 
+├── app.py                # Streamlit app 
+├── models/               # Saved ML models (.pkl) 
+├── disease_prediction/   # Training scripts 
+├── requirements.txt      # Dependencies
+
+
+## 🧪 How to Run Locally
 ```bash
 git clone https://github.com/JS-Coder007/Multiple_Disease_Prediction-main.git
 cd Multiple_Disease_Prediction-main
